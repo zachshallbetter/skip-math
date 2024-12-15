@@ -1,0 +1,76 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Counting by 1s",
+      "skipCount": 1,
+      "targetNumbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "requiredCorrect": 5,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Let's start with counting by 1s! Click the numbers in order."
+    },
+    {
+      "id": 2,
+      "name": "Counting by 2s",
+      "skipCount": 2,
+      "targetNumbers": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+      "requiredCorrect": 5,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Let's start with counting by 2s! Click the numbers in order."
+    },
+    {
+      "id": 3,
+      "name": "Counting by 3s", 
+      "skipCount": 3,
+      "targetNumbers": [3, 6, 9, 12, 15, 18],
+      "requiredCorrect": 4,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Great! Now let's try counting by 3s. Remember the pattern!"
+    },
+    {
+      "id": 4,
+      "name": "Counting by 4s",
+      "skipCount": 4,
+      "targetNumbers": [4, 8, 12, 16, 20, 24],
+      "requiredCorrect": 4,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Now let's count by 4s. Can you see the pattern?"
+    },
+    {
+      "id": 5,
+      "name": "Counting by 5s",
+      "skipCount": 5,
+      "targetNumbers": [5, 10, 15, 20, 25, 30],
+      "requiredCorrect": 4,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Time for counting by 5s! Watch how the numbers grow faster."
+    },
+    {
+      "id": 6,
+      "name": "Counting by 6s",
+      "skipCount": 6,
+      "targetNumbers": [6, 12, 18, 24, 30, 36],
+      "requiredCorrect": 4,
+      "theme": {
+        "background": "clockwork.png",
+        "sound": "click.mp3"
+      },
+      "owlMessage": "Now let's count by 6s. Can you see the pattern?"
+    }
+  ]
+}

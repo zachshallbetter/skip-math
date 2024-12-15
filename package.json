@@ -1,0 +1,38 @@
+{
+  "name": "number-nexus",
+  "version": "1.0.0",
+  "description": "An engaging math game for learning skip counting",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development concurrently \"webpack serve --config webpack.config.js\" \"webpack --config webpack.config.js --watch\" \"wait-on http://localhost:3001 && electron .\"",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "electron": "^33.2.1",
+    "electron-builder": "^24.9.1",
+    "html-webpack-plugin": "^5.5.4",
+    "process": "^0.11.10",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "wait-on": "^7.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4"
+  }
+}
